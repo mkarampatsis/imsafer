@@ -1,0 +1,98 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: IMSAFER
+# Description of the Site
+description: Advanced Information Modelling for SAFER structures against manmade hazards
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+# heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/background_image.png
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: thedevslot@gmail.com
+facebook_username: thedevslot
+twitter_username: thedevslot
+instagram_username: thedevslot
+linkedin_username: thedevslot
+github_username:  thedevslot
+youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
+
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: TheDevsLot
+# URL for the Image of the Author  assets/images/about_image2.png
+author-image: assets/images/about_image4.png
+# 60 Words About the Author
+author-about: The main objectives for the project is the development of innovative software components for building and infrastructure design, assessment and management against MMH. These components will collaborate with each other under a Building Information Modelling (BIM)-based computing protocol and will be integrated to an existing structural analysis and design software. IMSAFER software aims to unite different aspects of the built environment under a common platform. Multi-disciplinary BIM of structural, mechanical, electrical and plumbing systems is the first component that can provide a unified platform for assessing manmade hazards and guide the design process. In order to maximize the impact of countermeasures that will be implemented in the design stage or later during operation, functional and architectural aspects should be taken into account. The second component will assist in performing quick manmade hazard risk assessment in critical infrastructures and urban soft targets by coupling state of the art computational models for blast/impact/fire simulation, existing regulation standards for human life protection and functional characteristics of the built environment at hand.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/thedevslot
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

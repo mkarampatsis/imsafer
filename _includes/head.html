@@ -1,0 +1,12 @@
+<head>
+    {% include meta.html %}
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css">
+    <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon">
+    
+    <link rel="stylesheet" href="assets/css/pe-icon-7-stroke/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <!-- Optional - Adds useful class to manipulate icon font display -->
+    <link rel="stylesheet" href="assets/css/pe-icon-7-stroke/pe-icon-7-stroke/css/helper.css">
+</head>

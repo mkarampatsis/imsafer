@@ -1,0 +1,16 @@
+- name: Dr. Chara Ch. Mitropoulou
+  link: https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/
+  image: /assets/images/team/chara.png
+  description: Dr. Chara Ch. Mitropoulou was analyst and developer in ACE-Hellas S.A. software development company. Chara obtained her Diploma, MSc and PhD degrees, in Civil Engineering, from NTUA. In the past she served as Visiting Researcher at the University of Cyprus and Cairo University in Egypt. Chara is an active member of the computational earthquake engineering research community, focusing among others on performance-based earthquake engineering, structural design optimization of real-world structures and AI in structural engineering. Chara is the PI of IMSAFER.
+- name: Dr. Nikolaos Ath. Kallioras
+  link: https://www.linkedin.com/in/nikos-kallioras-3695b27b/
+  image: /assets/images/team/nkalioras.png
+  description: Dr. Nikolaos Ath. Kallioras obtained his Diploma and PhD degree in Civil Engineering from NTUA. In the past he has worked as a freelancer civil engineer focusing on structural and architectural design of new residential buildings. His research interests among others include engineering optimization, machine learning, reduced order modeling, shape and topology optimization and GPGPU programming. Nikolaos’ role in IMSAFER is development of source code in parallel CPU and GPU environment, metaheuristic algorithms and application of deep learning.
+- name: Mr. George Kazakis
+  link:
+  image: /assets/images/team/george.png
+  description: Mr. George Kazakis obtained his Diploma in Civil Engineering and his MSc in Structural Analysis and design of earthquake resistant structures from NTUA. From 2016 he is a PhD candidate in Civil Engineering in NTUA. He has participated in international research projects as well as sevral conferences. His research focuses mainly on analysis and design of civil engineering structures, structural optimization, topology optimization, finite element method, software development and computational mechanics. George’ role in IMSAFER, is the research and development of computational aspects and integration of inhouse programming codes with commercial software.
+- name: Mr. Stefanos Sotiropoulos
+  link:
+  image: /assets/images/team/stefanos.png
+  description: Mr. Stefanos Sotiropoulos obtained his Diploma in Civil Engineering and his MSc in Computational Mechanics from NTUA. From 2017 he is a PhD candidate in Civil Engineering in NTUA. He has participated in international research projects and he was awarded with a doctoral fellowship. His research interests focus on analysis and design of civil engineering structures, structural optimization, finite element method, software development and computation mechanics. Stefanos’ role in IMSAFER, is the research and development of computational aspects and integration of inhouse programming codes with commercial software.
